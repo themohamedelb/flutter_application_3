@@ -1,0 +1,42 @@
+
+name: flutter_application_3
+description: "Proyecto Entrega 3 Flutter"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+# Dependencias principales
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+# Dependencias para desarrollo
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # Paquete para crear el icono personalizado
+  flutter_launcher_icons: ^0.14.4
+
+# Configuracion de Flutter
+flutter:
+
+  # Utilizar iconos de Material Design
+  uses-material-design: true
+
+  # Carpeta donde guardamos el icono
+  assets:
+    - assets/icon/
+
+# Configuracion del icono de la aplicacion
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/app_icon.png"
